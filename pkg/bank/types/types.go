@@ -28,3 +28,12 @@ type Card struct {
 	Name       string
 	Active     bool
 }
+
+// Category представляет собой категорию, в которой был совершен платёж (авто, аптеки, рестораны и т.д.).
+type Category string
+
+type Payment struct {
+	ID       int
+	Amount   Money
+	Category Category
+}
