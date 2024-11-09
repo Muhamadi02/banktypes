@@ -32,6 +32,7 @@ type Card struct {
 // Category представляет собой категорию, в которой был совершен платёж (авто, аптеки, рестораны и т.д.).
 type Category string
 
+// Payment представляет информацию о платеже.
 type Payment struct {
 	ID       int
 	Amount   Money
