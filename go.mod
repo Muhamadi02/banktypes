@@ -1,1 +1,1 @@
-module github.com/Muhamadi02/banktypes
+module github.com/Muhamadi02/banktypes/v2
