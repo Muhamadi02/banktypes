@@ -26,3 +26,13 @@ type Payment struct {
 	Category Category
 	Status   Status
 }
+
+// Category представляет собой категорию, в которой был совершен платёж (авто, аптеки, рестораны и т.д.).
+type Category string
+
+// Payment представляет информацию о платеже.
+type Payment struct {
+	ID       int
+	Amount   Money
+	Category Category
+}
